@@ -5,21 +5,21 @@ Social media, which is extensively used across the world, plays an important par
 The project aims to predict a person's overall social media consumption based on how much time they spend on social media sites like Whatsapp, Instagram, and Facebook. The algorithm will forecast if a user has a high or low engagement activity level based on their Instagram followers and amount of posts.The main purpose of our project is to predict the total social media usage of a particular individual based on the time spent on social media in various platforms such as whatsapp, instagram and facebook. Our aim is to predict which platform is being used the most by an individual based on time spent on weekends versus time spent on week-days. Using instagram followers and number of posts, the algorithm will predict whether the user has a high or low interaction activity status.
 
 # Methodology adapted:
-● The data was collected from the Kaggle website. The dataset was called Social Media Usage analytics.
-● Then the data-preprocessing starts.
-● The data set we used, we first checked for the presence of any null values. Our data set did not include any null values.
-● The column names were renamed for convenience
-● Unwanted or irrelevant columns which had practically 0 contribution to our prediction were dropped.
-● The numerical and string data types were in object format and we had to convert them into string and int data types respectively because mathematical functions cannot be applied to object data types.
-● The last but the most important part of the preprocessing was converting string numeric values to integer values. Columns such as “Total Instagram Usage ” had values stored as a string so we had to process it by removing the ‘,’ and then converting it from Object to String and then finally to Integer.
-● We also performed a few basic visualizations on the dataset.
-● Machine Learning models used are; Random Forest, Linear Regression and XGBoost.
-● Linear regression model was used to predict the total social media usage based on the time spent on each platform “last week”. The train:test ratio was 70:30.
-● We used cross- validation to overcome the overfitting issue in the model.
-● Linear Regression model was used to predict the total social media usage based on the time spent on each platform “last weekend”. The train:test ratio was 70:30.
-● XGBoost model is used to improve the performance for total social media usage in the last week for all three platforms. The train:test ratio was 70:30.
+The data was collected from the Kaggle website. The dataset was called Social Media Usage analytics.<br>
+● Then the data-preprocessing starts.<br>
+● The data set we used, we first checked for the presence of any null values. Our data set did not include any null values.<br>
+● The column names were renamed for convenience<br>
+● Unwanted or irrelevant columns which had practically 0 contribution to our prediction were dropped.<br>
+● The numerical and string data types were in object format and we had to convert them into string and int data types respectively because mathematical functions cannot be applied to object data types.<br>
+● The last but the most important part of the preprocessing was converting string numeric values to integer values. Columns such as “Total Instagram Usage ” had values stored as a string so we had to process it by removing the ‘,’ and then converting it from Object to String and then finally to Integer.<br>
+● We also performed a few basic visualizations on the dataset.<br>
+● Machine Learning models used are; Random Forest, Linear Regression and XGBoost.<br>
+● Linear regression model was used to predict the total social media usage based on the time spent on each platform “last week”. The train:test ratio was 70:30.<br>
+● We used cross- validation to overcome the overfitting issue in the model.<br>
+● Linear Regression model was used to predict the total social media usage based on the time spent on each platform “last weekend”. The train:test ratio was 70:30.<br>
+● XGBoost model is used to improve the performance for total social media usage in the last week for all three platforms. The train:test ratio was 70:30.<br>
 ● Random Forest model was used to predict which platform is used the most by an individual based on the time spent on week and time spent on weekends. The test size
-used is 25 percent.
-● Linear regression model was used to predict the activity status of an individual based on number of instagram posts and number of instagram followers.
-● Finally, model evaluation such as the mean absolute error, r-square score, mean standard error, the coefficient matrix and model visualization was performed for the models used.
+used is 25 percent.<br>
+● Linear regression model was used to predict the activity status of an individual based on number of instagram posts and number of instagram followers.<br>
+● Finally, model evaluation such as the mean absolute error, r-square score, mean standard error, the coefficient matrix and model visualization was performed for the models used.<br>
 
